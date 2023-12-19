@@ -5,8 +5,8 @@
 public class Coins {
 	public static void main(String[] args) {
 		int quarter = 25;
-		int cent = 1;
 		int num = Integer.parseInt(args[0]);
-		System.out.println("Use " + num / quarter + " quarter" + " and " + num % quarter + " cents");
+		// cent = 1
+		System.out.println("Use " + num / quarter + " quarters" + " and " + num % quarter + " cents");
 	}
 }
