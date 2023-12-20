@@ -9,8 +9,11 @@ public class LinearEq {
 		double a = Double.parseDouble(args[0]);
 		double b = Double.parseDouble(args[1]);
 		double c = Double.parseDouble(args[2]);
+		//solution of the equation.
 		Double result = (c - b) / a;
+		//Print the equation.
 		System.out.println(a + " *" + " x" + " + " + b + " = " + c);
+		//Print the result.
 		System.out.println("x" + " = " + result);	
 	 }
 }
