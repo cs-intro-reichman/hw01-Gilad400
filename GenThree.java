@@ -7,9 +7,9 @@ public class GenThree {
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
 		// Generates a random number in the range.
-		int num1 = (int)(Math.random() * (b-a) + 1) + a;
-		int num2 = (int)(Math.random() * (b-a) + 1) + a;
-		int num3 = (int)(Math.random() * (b-a) + 1) + a;
+		int num1 = (int)(Math.random() * (b-a)) + a;
+		int num2 = (int)(Math.random() * (b-a)) + a;
+		int num3 = (int)(Math.random() * (b-a)) + a;
 		System.out.println(num1 + "\n" + num2 + "\n" + num3);
 		// Find the minimal number that was generated.
 		int min = Math.min(Math.min(num1, num2), num3);
